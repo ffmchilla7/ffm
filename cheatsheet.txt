@@ -11,3 +11,8 @@ npx astro build
 npx vercel --prod
 # Erstes Mal: Projektname, Scope wählen, Projekt verlinken
 # Danach: automatisch Updates deployen
+
+npx astro build       
+npx vercel --prod
+
+nslookup garshasebi.de
