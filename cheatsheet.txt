@@ -1,2 +1,5 @@
 npx astro build
 firebase deploy
+
+npx astro build
+npx vercel
