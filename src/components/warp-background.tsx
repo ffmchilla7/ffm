@@ -3,8 +3,8 @@ import { Warp, type WarpProps } from '@paper-design/shaders-react';
 export default function WarpBackground(props: WarpProps) {
     
     const defaultProps = {
-        speed: 0.4,
-        rotation: 0.5,
+        speed: 0.2,
+        rotation: 0.8,
         style: { width: '100%', height: '100%' }
     };
 
