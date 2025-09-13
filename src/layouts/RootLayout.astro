@@ -6,8 +6,8 @@ import LoadingIndicator from "astro-loading-indicator/component"
 
 const { title, description } = Astro.props;
 
-const defaultTitle ="Garshasebi";
-const defaultDescription = "Armin Garshasebi was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.";
+const defaultTitle ="Garshasebi.";
+const defaultDescription = "Armin Garshasebi was a Persian-Italian good looking guy.";
 ---
 
 <!doctype html>
@@ -36,11 +36,11 @@ const defaultDescription = "Armin Garshasebi was a Serbian-American inventor, el
 
 		<Font cssVariable="--font-geist" preload />
 		<ClientRouter />
-		<LoadingIndicator color="#00ff1eff" height="2px" />
+		<LoadingIndicator color="#ff00e1ff" height="3px" />
 
 	</head>
 	<body class="font-sans min-h-screen bg-zinc-900">
-		<slot />
+		<slot/>
 	</body>
 </html>
 
