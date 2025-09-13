@@ -1,12 +1,12 @@
 # Armin Garshasebi Portfolio
 Armin Garshasebi Portfolio is an Astro template built with of course Astro 5.7, React 19 and TailwindCSS 4
 
-![Armin Garshasebi Astro Portfolio](/public/social-image.jpg "Armin Garshasebi Portfolio")
+![Armin Garshasebi Astro Portfolio](/public/pic.jpg "Armin Garshasebi Portfolio")
 
 ## Getting Started
 Clone Repository
 ```sh
-git clone https://github.com/iann-mathaiya/nikola-tesla.git
+git clone https://github.com/ffmchilla7/ffm/nikola-tesla
 ```
 
 Install Dependencies

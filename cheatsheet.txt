@@ -7,7 +7,7 @@ npx astro dev
 npx astro build
 # Output: dist/
 
-# 3️⃣ Deployment auf Vercel
+# 3️⃣ Deployment About Me Vercel
 npx vercel --prod
 # Erstes Mal: Projektname, Scope wählen, Projekt verlinken
 # Danach: automatisch Updates deployen
