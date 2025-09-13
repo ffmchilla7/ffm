@@ -5,6 +5,8 @@ import Navigation from "../components/navigation";
 import RootLayout from "../layouts/RootLayout.astro";
 import WarpBackground from "../components/warp-background";
 import AvailableForWork from "../components/available.astro";
+import ExternalLink from "../components/external-link.astro";
+
 ---
 
 <RootLayout>
@@ -32,9 +34,9 @@ import AvailableForWork from "../components/available.astro";
 					<AvailableForWork className="py-4" />
 					<div class="mb-2 sm:mb-4 flex items-center justify-between">
 						<div class="flex items-center gap-4">
-							<Link href="https://de.linkedin.com/in/armingarshasebi"target="_blank">Was guckst du?</Link>
+							<ExternalLink  href="https://de.linkedin.com/in/armingarshasebi"target="_blank">Was guckst du?</ExternalLink>
 							 <!-- <Link href="/projects" variant="secondary">Referenzen</Link> -->
-							 <Link href="https://mallouki-kfz.de"variant="secondary"target="_blank">Referenzen</Link>
+							 <ExternalLink  href="https://mallouki-kfz.de"variant="secondary"target="_blank">Referenzen</ExternalLink>
 						</div>
 
 						<Navigation client:load>
