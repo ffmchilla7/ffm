@@ -2,25 +2,28 @@
 import { Image } from 'astro:assets';
 import H1 from "../components/h1.astro";
 import InfoLayout from "../layouts/InfoLayout.astro";
-import ACGenerator from "../assets/pic.jpg";
-import FluidPropulsion from "../assets/pic.jpg";
-import ElectricMotor from "../assets/pic.jpg";
+import Screen1 from "../assets/Screen1.png";
+import Screen2 from "../assets/Screen2.png";
+import Screen3 from "../assets/Screen3.png";
+import { image } from 'motion/react-client';
 
 const projects = [
      {
-          title: "AC Generator",
-          description: "Transform mechanical energy into alternating current, powering the modern electric grid",
-          image: ACGenerator
+          title: "Mallouki Fahrzeugtechnik",
+          description: "At Mallouki Fahrzeugtechnik in Frankfurt am Main, our workshop manager Mostapha El Mallouki and his experienced team deliver high-quality automotive services with precision and passion. With over 15 years of expertise, we specialize in repairs, restorations, and customized vehicle modifications, always ensuring the highest standards. Customers trust us for our modern technology, attention to detail, and reliable service in every project.",
+          image: Screen1,
+          image: Screen3
+
      },
      {
-          title: "Fluid Propulsion",
-          description: "Bladeless turbine using fluid dynamics for efficient, low-friction propulsion.",
-          image: FluidPropulsion
+          title: "Overview",
+          description: "Our custom-built contact form is seamlessly connected to a secure mail server, making it quick and easy for customers to reach us online.",
+          image: Screen2     
      },
      {
-          title: "Electro-Magnetic Motor",
-          description: "Harness alternating current to produce smooth, efficient rotary motion.",
-          image: ElectricMotor
+          title: "Contact-Formular",
+          description: "Our custom-built contact form is seamlessly connected to a secure mail server, making it quick and easy for customers to reach us online.",
+          image: Screen3
      }];
 ---
 
