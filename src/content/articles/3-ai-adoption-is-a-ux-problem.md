@@ -1,12 +1,12 @@
 ---
 isDraft: false
-title: AI adoption is a UX problem
+title: Smthng about my sport activities.
 snippet: We have plenty of intelligence. The problem is making it usable
 slug: ai-adoption-is-a-ux-problem
-author: Nan Yu
+author: Armin Garshasebi
 category: Sport
 readingDuration: 1
-pubDate: 2025 4 10
+pubDate: 2025 9 11
 coverAlt: Tobi Lutke - Shopify CEO - I heard this internal memo of mine is being leaked right now, so here it is
 originalLink: https://thenanyu.com/ux.html
 cover: https://pbs.twimg.com/media/Gn7z7RcbEAAr118?format=jpg&name=medium
